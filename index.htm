@@ -104,6 +104,134 @@
             👉<span id="txtEdge"></span>
         </div>
     </form>
+    <h3>📅 Tính ngày tháng năm</h3>
+    <form class="row gy-3 align-items-center px-2">
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputDay"
+                placeholder="Nhập Ngày">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputMonth"
+                placeholder="Nhập Tháng">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputYear"
+                placeholder="Nhập Năm">
+        </div>
+
+        <div class="col-4">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnYesterday">Ngày Hôm
+                Qua</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnTomorrow">Ngày
+                Mai</button>
+        </div>
+    </form>
+    <div class="alert alert-success" role="alert">
+        👉<span id="txtDate"></span>
+    </div>
+    <hr/>
+
+
+    <h3>🗓️ Tính ngày</h3>
+    <form class="row gy-3 align-items-center px-2">                               
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputMonth2"
+                placeholder="Nhập Tháng">
+        </div>
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputYear2"
+                placeholder="Nhập Năm">
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnCalcDay">Tính Ngày</button>
+        </div>                               
+    </form>
+    <div class="alert alert-success" role="alert">
+        👉<span id="txtCalcDay"></span>
+    </div>
+    <hr/>
+    <h4>🔢 Đọc số</h4>
+    <form class="row gy-3 align-items-center px-2">                               
+        <div class="col-12 col-lg-4">
+            <input type="number" class="form-control form__input" id="inputReadInt"
+                placeholder="Nhập số 3 chữ số">
+        </div>                               
+        <div class="col-12 col-lg-4">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnReadInt">Đọc Số</button>
+        </div>                               
+    </form>
+    <div  class="alert alert-success" role="alert">
+        👉<span id="txtReadInt"></span>
+    </div>
+    <hr/>
+    <h4>🗺️ Tìm sinh viên xa trường nhất</h4>
+    <form class="row gy-3 align-items-center px-2"> 
+        <div class="col-12">
+            <h5>Sinh Viên 1</h5>
+        </div>   
+        <div class="col-12 col-lg-4">                                    
+            <input type="text" class="form-control form__input" id="inputName1"
+                placeholder="Nhập tên">
+        </div>                           
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputX1"
+                placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputY1"
+                placeholder="Nhập tọa độ y">
+        </div>          
+        <div class="col-12">
+            <h5>Sinh Viên 2</h5>
+        </div>   
+        <div class="col-12 col-lg-4">                                    
+            <input type="text" class="form-control form__input" id="inputName2"
+                placeholder="Nhập tên">
+        </div>                           
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputX2"
+                placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputY2"
+                placeholder="Nhập tọa độ y">
+        </div> 
+        <div class="col-12">
+            <h5>Sinh Viên 3</h5>
+        </div>   
+        <div class="col-12 col-lg-4">                                    
+            <input type="text" class="form-control form__input" id="inputName3"
+                placeholder="Nhập tên">
+        </div>                           
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputX3"
+                placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputY3"
+                placeholder="Nhập tọa độ y">
+        </div>  
+        <div class="col-12">
+            <h5>Trường học</h5>
+        </div> 
+                              
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputX4"
+                placeholder="Nhập tọa độ x">
+        </div>
+        <div class="col-12 col-lg-4">                                    
+            <input type="number" class="form-control form__input" id="inputY4"
+                placeholder="Nhập tọa độ y">
+        </div>                     
+        <div class="col-12">
+            <button class="btn btn-success me-1 mb-1" type="button" id="btnSearch">Tìm</button>
+        </div>                               
+    </form>
+    <div class="alert alert-success" role="alert">👉<span id="txtSearch" ></span>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
